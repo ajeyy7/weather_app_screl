@@ -12,13 +12,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey.shade200,
+      backgroundColor: Colors.blueGrey.shade500,
       appBar: AppBar(
-        backgroundColor:Colors.blueGrey.shade200 ,
+        backgroundColor:Colors.blueGrey.shade500 ,
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.end,
           children: [
 
             WeatherContainer()
